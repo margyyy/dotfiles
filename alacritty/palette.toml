@@ -1,0 +1,59 @@
+# Custom palette shared with Neovim.
+
+[colors.primary]
+background = "#22272D"
+foreground = "#F8F8F0"
+dim_foreground = "#AAB2C3"
+bright_foreground = "#F5F5F5"
+
+[colors.cursor]
+text = "#22272D"
+cursor = "#F8F8F0"
+
+[colors.vi_mode_cursor]
+text = "#22272D"
+cursor = "#B287FF"
+
+[colors.selection]
+text = "#F8F8F0"
+background = "#3B3F4B"
+
+[colors.search.matches]
+foreground = "#22272D"
+background = "#FFD569"
+
+[colors.search.focused_match]
+foreground = "#22272D"
+background = "#A3E076"
+
+[colors.footer_bar]
+foreground = "#F8F8F0"
+background = "#30353F"
+
+[colors.hints.start]
+foreground = "#22272D"
+background = "#66D9EF"
+
+[colors.hints.end]
+foreground = "#22272D"
+background = "#B287FF"
+
+[colors.normal]
+black = "#22272D"
+red = "#FB6060"
+green = "#A3E076"
+yellow = "#FFD569"
+blue = "#66D9EF"
+magenta = "#B287FF"
+cyan = "#18B498"
+white = "#CCCCCC"
+
+[colors.bright]
+black = "#888888"
+red = "#FD971F"
+green = "#A3E076"
+yellow = "#E6B362"
+blue = "#66D9EF"
+magenta = "#B287FF"
+cyan = "#18B498"
+white = "#F8F8F0"

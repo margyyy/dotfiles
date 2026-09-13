@@ -36,6 +36,11 @@ return {
             "<cmd>Telescope help_tags<cr>",
             desc = "Cerca nella guida",
         },
+        {
+            "<leader>fl",
+            "<cmd>Telescope current_buffer_fuzzy_find<cr>",
+            desc = "Cerca nel file corrente",
+        },
     },
     config = function()
         local telescope = require("telescope")
